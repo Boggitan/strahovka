@@ -1,0 +1,170 @@
+@font-face {
+   font-family: 'SF Text Semibold';
+   src: url('../fonts/SFUIText-Semibold.eot');
+   src: url('../fonts/SFUIText-Semibold.eot?#iefix') format('embedded-opentype'),
+   url('../fonts/SFUIText-Semibold.woff') format('woff'),
+   url('../fonts/SFUIText-Semibold.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+   }
+
+@font-face {
+   font-family: 'Crimson Text';
+   src: local('Crimson Text Regular'), local('Crimson-Text-Regular'),
+      url('../fonts/CrimsonText-Regular.woff2') format('woff2'),
+      url('../fonts/CrimsonText-Regular.woff') format('woff'),
+      url('../fonts/CrimsonText-Regular.ttf') format('truetype');
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'SF Pro Display';
+   src: local('San Francisco Pro Display Semibold'), local('San-Francisco-Pro-Display-Semibold'),
+      url('../fonts/SFProDisplay-Semibold.woff2') format('woff2'),
+      url('../fonts/SFProDisplay-Semibold.woff') format('woff'),
+      url('../fonts/SFProDisplay-Semibold.ttf') format('truetype');
+   font-weight: 600;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'SF Pro Display';
+   src: local('San Francisco Pro Display Black'), local('San-Francisco-Pro-Display-Black'),
+      url('../fonts/SFProDisplay-Black.woff2') format('woff2'),
+      url('../fonts/SFProDisplay-Black.woff') format('woff'),
+      url('../fonts/SFProDisplay-Black.ttf') format('truetype');
+   font-weight: 900;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'SF Pro Display';
+   src: local('San Francisco Pro Display Bold'), local('San-Francisco-Pro-Display-Bold'),
+      url('../fonts/SFProDisplay-Bold.woff2') format('woff2'),
+      url('../fonts/SFProDisplay-Bold.woff') format('woff'),
+      url('../fonts/SFProDisplay-Bold.ttf') format('truetype');
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'SF Pro Display';
+   src: local('San Francisco Pro Display Light'), local('San-Francisco-Pro-Display-Light'),
+      url('../fonts/SFProDisplay-Light.woff2') format('woff2'),
+      url('../fonts/SFProDisplay-Light.woff') format('woff'),
+      url('../fonts/SFProDisplay-Light.ttf') format('truetype');
+   font-weight: 300;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'SF Pro Display';
+   src: local('San Francisco Pro Display Medium'), local('San-Francisco-Pro-Display-Medium'),
+      url('../fonts/SFProDisplay-Medium.woff2') format('woff2'),
+      url('../fonts/SFProDisplay-Medium.woff') format('woff'),
+      url('../fonts/SFProDisplay-Medium.ttf') format('truetype');
+   font-weight: 500;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'SF Pro Display';
+   src: local('San Francisco Pro Display Regular'), local('San-Francisco-Pro-Display-Regular'),
+      url('../fonts/SFProDisplay-Regular.woff2') format('woff2'),
+      url('../fonts/SFProDisplay-Regular.woff') format('woff'),
+      url('../fonts/SFProDisplay-Regular.ttf') format('truetype');
+   font-weight: 400;
+   font-style: normal;
+}
+
+/* Обнуление */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: #000
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: 14px;
+	color: #252b42;
+   font-weight: 500px;
+   font-family: 'SF Pro Display';
+   background: #fbf2f2;	
+}
+/*-------------------------------*/
+.wrapper{
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
+._container {
+   max-width: 1046px;
+   padding: 15px;
+   margin: 0px auto;
+   box-sizing: content-box;
+	display: flex;
+	align-items: center;
+}
+.header__logo {
+	display: block;
+	padding: 0 142px 0 0;
+}
+.header__menu{
+	display: flex;
+	justify-content: space-between;
+}
+.menu__list {
+	display: flex;
+}
+.menu__item{
+	display: flex;
+	align-items: center;
+	box-sizing: content-box;
+	flex-wrap: nowrap;
+	font-family: 'SF Pro Display';
+	font-style: normal;
+   font-weight: 400px;
+	line-height: 1.1666;
+}
+.menu__item:not(:last-child){
+	margin-right: 59px;
+}
+
+.menu__link span {
+	font-size: 24px;
+}
+
+.header__cabinet{
+	display: flex;
+	align-items: center;
+	padding-left: 38px;
+	box-sizing: content-box;
+	flex-wrap: nowrap;
+}
+.cabinet__link{
+	margin: 10px;
+}
+
+
