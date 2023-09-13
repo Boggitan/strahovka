@@ -260,6 +260,8 @@ body {
 	line-height: normal;
 	text-transform: uppercase;
 }
-.main-block__picture {}
+.main-block__picture img{
+	margin: 66px 35px 82px ;
+}
 .main-block__body-picture{}
 
