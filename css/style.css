@@ -183,6 +183,9 @@ body {
 	box-sizing: content-box;
 	flex-wrap: nowrap;
 }
+.cabinet__link {
+   font-weight: 400;
+}
 
 .cabinet__link span{
 	display: inline-flex;
