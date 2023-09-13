@@ -6,9 +6,8 @@
    url('../fonts/SFUIText-Semibold.ttf') format('truetype');
    font-weight: normal;
    font-style: normal;
-   }
-
-@font-face {
+}
+font-face {
    font-family: 'Crimson Text';
    src: local('Crimson Text Regular'), local('Crimson-Text-Regular'),
       url('../fonts/CrimsonText-Regular.woff2') format('woff2'),
@@ -121,7 +120,7 @@ body {
    flex-direction: column;
 }
 ._container {
-   max-width: 1046px;
+   max-width: 1165px;
    padding: 15px;
    margin: 0px auto;
    box-sizing: content-box;
@@ -178,6 +177,7 @@ body {
 
 .header__cabinet{
 	display: flex;
+	color: #0D1C41;
 	align-items: center;
 	padding-left: 38px;
 	box-sizing: content-box;
@@ -190,5 +190,71 @@ body {
 	align-items: center;
 	gap: 12px;
 }
+.page {}
+.page__main-block {}
+.main-block {}
+.main-block__container {}
+.main-block__body {
+	display: flex;
+	border-radius: 30px;
+	margin: 30px 0 0 0;
+	box-shadow: -2px -2px 5px 0px rgba(20, 29, 61, 0.15), 2px 2px 5px 0px rgba(20, 29, 61, 0.15);
 
+}
+.main-block__body-text{
+	display: flex;
+	flex-direction: column;
+}
+
+.main-block__insurance-title {
+	display: block;
+	width: 485px;
+	margin: 124px 0 0 98px;
+	color: #0D1C41;
+	font-family: 'SF Pro Display';
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.main-block__insurance-title span{
+	font-weight: 600;
+}
+.main-block__insurance-text {
+	display: block;
+	width: 365px;
+	margin: 24px 0 0 98px;
+	color: #939CA6;
+	font-family: 'SF Pro Display';
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.main-block__button {
+	display: flex;
+	margin: 92px 0 0 99px;
+	display: flex;
+	width: 265px;
+	padding: 20px 75px;
+	justify-content: center;
+	align-items: center;
+	gap: 27px;
+	border-radius: 6px;
+	border: 1px solid #4A607A;
+	background: #FFF;
+	box-shadow: 0px 2px 18px 0px rgba(41, 41, 41, 0.10);
+}
+.button {}
+.button__buy {
+	color: #000;
+	font-family: 'SF Pro Display';
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+}
+.main-block__picture {}
+.main-block__body-picture{}
 
